@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(-135deg,#8ecbe6, #00ff80);
+    padding: 20px;
+    margin: 20px;
+}
