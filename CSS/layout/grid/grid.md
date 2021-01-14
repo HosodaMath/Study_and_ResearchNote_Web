@@ -95,3 +95,82 @@ grid-template-columns: 200px 200px 200px 200px;
 ```
 
 にすれば良い。
+
+ソースコードは以下です。**HTML and CSS**
+
+[grid-template-columnsでの実装](study2/index.html)
+
+**grid-template-rows**で行の定義が可能です。
+
+#### 30pxでの適用
+
+```html
+<section>
+    <h3>grid-template-rowsあり</h3>
+    <p>適用は30px</p>
+    <div class="box1">
+        <div class="box1_1">1</div>
+        <div class="box1_2">2</div>
+        <div class="box1_3">3</div>
+        <div class="box1_4">4</div>
+    </div>
+</section>
+```
+
+```css
+.box1 {
+    display: grid;
+    grid-template-rows: 30px;
+}
+```
+
+画像を見ると30pxになっているのがわかる。
+
+![30pxになっているのがわかる画像](image/grid_30.png)
+
+
+#### 30px 30pxでの適用
+
+```html
+ <section>
+    <h3>grid-template-rowsあり</h3>
+    <p>適用は30px 30px</p>
+    <div class="box2">
+        <div class="box2_1">1</div>
+        <div class="box2_2">2</div>
+        <div class="box2_3">3</div>
+        <div class="box2_4">4</div>
+    </div>
+</section>
+```
+
+```css
+.box2 {
+    display: grid;
+    grid-template-rows: 30px 30px;
+}
+```
+
+1と2が30px 30pxになっているのがわかる。
+
+![30px 30pxになっているのがわかる画像](image/grid_30_30.png)
+
+4つすべて揃えるには
+
+```css
+grid-template-rows: 30px 30px 30px 30px
+```
+
+とすれば良いです。
+
+ソースコードは以下です。**HTML and CSS**
+
+[grid-template-rowsでの実装](study3/index.html)
+
+#### grid-template-columnsとgrid-template-rowsを組み合わせて使う
+
+200px * 30pxで作成。
+
+ソースコードは以下です。**HTML and CSS**
+
+[grid-template-columns_and_grid-template-rowsでの実装](study4/index.html)

@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    background-color: #f0f8ff;
+}
+
+.box0 {
+    display: grid;
+}
+
+.box0_1, .box0_2, .box0_3, .box0_4, .box0_5 {
+    background-color: #7fffd4;
+}
+
+.box1 {
+    display: grid;
+    grid-template-rows: 30px;
+}
+
+.box1_1, .box1_2, .box1_3, .box1_4, .box1_5 {
+    background-color: #7fffd4;
+}
+
+.box2 {
+    display: grid;
+    grid-template-rows: 30px 30px;
+}
+
+.box2_1, .box2_2, .box2_3, .box2_4, .box2_5 {
+    background-color: #7fffd4;
+}
+
+
