@@ -174,3 +174,48 @@ grid-template-rows: 30px 30px 30px 30px
 ソースコードは以下です。**HTML and CSS**
 
 [grid-template-columns_and_grid-template-rowsでの実装](study4/index.html)
+
+## fr単位
+
+fr単位はグリッドコンテナー内の利用可能な空間の分数を表している。
+
+### 例1 1frの場合
+
+grid-template-columnsとgrid-template-rows両方に適用してみる。
+
+とくに変化は起きない。
+
+```css
+.box0 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:  1fr;
+}
+```
+
+### 例2 1fr 1frの場合
+
+まずはじめに**grid-template-columnsのみに適用**してみる。
+
+```css
+.box1c {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+```
+
+結果として番号2が番号1の横に来て見た目が若干変わった。
+
+次に**grid-template-rowsのみに適用**してみる。
+
+```css
+.box1r {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+```
+
+結果はあまり見た目が変わらない、なぜだろう？
+
+なぜgrid-template-columnsは変わってgrid-template-rowsは見た目が変わらないのだろう。
+
