@@ -32,5 +32,20 @@ body {
     text-align: center;
 }
 
+.box2_1_c {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.box2_2_c {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.box2_1, .box2_2, .box2_3, .box2_4, .box2_5 {
+    background-color: #7fffd4;
+    text-align: center;
+    border: 1px solid black;
+}
 
 

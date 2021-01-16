@@ -215,7 +215,34 @@ grid-template-columnsとgrid-template-rows両方に適用してみる。
 }
 ```
 
+![1fr 1frの場合のキャプチャ画像](image/fr_1fr_1fr.png)
+
 結果はあまり見た目が変わらない、なぜだろう？
 
-なぜgrid-template-columnsは変わってgrid-template-rowsは見た目が変わらないのだろう。
+なぜgrid-template-columnsは変わってgrid-template-rowsは見た目が変わらないのだろう。-> わからないので次に行く
 
+[fr単位の例](study5/index.html)
+
+### 例3. 2fr 1frの場合と2fr 2frの場合
+
+2fr 1frの場合にgrid-template-columnsのみに適用した場合のコードは以下となる。
+
+```css
+.box2_1_c {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+```
+
+```css
+.box2_2_c {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+```
+
+![2fr 1frの場合と2fr 2frの場合のキャプチャ画像](image/fr_2fr_1fr_and_1fr_1fr.png)
+
+明らかにこの2つは異なる、2fr 1frの場合は左右のバランスが偏っている。右は左の2倍の大きさになっている。しかし2fr 2frの場合は数が同じなのでバランスは良い。
+
+<!--これを利用して何か作りたい-->
