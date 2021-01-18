@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(../image/background/pattern_background.png);
+    background-color: #f0f8ff;
+    padding: 20px;
+    margin: 20px;
+}
+
+.main_title {
+    border: 5px solid #000000;
+    text-align: center;
+}
+
+.title_normal_pattern, .title_gradien_pattern {
+    border: 1px solid #000000;
+    text-align: center; 
+}
+
+.item {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 256px 256px 256px;
+    grid-template-rows:  256px 256px 256px;
+}
+
+.img_item4, .img_item5, .img_item6 {
+    width: 200px;
+    height: 200px;
+    background-color: #293d56;
+}
