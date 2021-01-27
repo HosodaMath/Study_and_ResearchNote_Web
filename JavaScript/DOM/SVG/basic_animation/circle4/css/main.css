@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body {
+    padding: 20px;
+    margin: 20px;
+}
+
+#bg { fill: url(#grad1);}
+
+.stop1_1 { stop-color: #022481; }
+.stop1_2 { stop-color: #01195c; }
+.stop1_3 { stop-color: #01103a; }
+
+#circle4 { fill: url(#grad2);}
+
+.stop2_1 { stop-color: #ff9249; }
+.stop2_2 { stop-color: #ff791f; }
+.stop2_3 { stop-color: #ff6600; }

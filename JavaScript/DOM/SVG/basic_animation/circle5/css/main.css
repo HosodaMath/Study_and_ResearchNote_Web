@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+    padding: 20px;
+    margin: 20px;
+}
+
+.start_button {
+    background-color: #000000;
+    color: #e5f3ff;
+    font-size: 24px;
+    width: 100px; 
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#bg { fill: url(#grad1);}
+
+.stop1_1 { stop-color: #85ffae; }
+.stop1_2 { stop-color: #29b458; }
+.stop1_3 { stop-color: #049e37; }
+
+#circle5 { fill: url(#grad2);}
+
+.stop2_1 { stop-color: #f9ffa2; }
+.stop2_2 { stop-color: #cad347; }
+.stop2_3 { stop-color: #8f9905; }

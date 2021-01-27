@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja=">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>svg animation5</title>
+    <link rel="stylesheet" href="css/sanitize.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header>
+        <h1>SVG Animation</h1>
+    </header>
+    <main>
+        <h2>DOMを使ったアニメーション。</h2>
+        <section>
+            <h3>circle++</h3>
+            <p>startボタンをクリックしたらスタート</p>
+            <div>
+                <svg viewBox="0 0 800 600" width="800" height="600">
+                    <defs>
+                        <linearGradient id="grad1" x1="0" x2="0" y1="0" y2="1">
+                            <stop class="stop1_1" offset="0%"></stop>
+                            <stop class="stop1_2" offset="50%"></stop>
+                            <stop class="stop1_3" offset="100%"></stop>
+                        </linearGradient>
+                        <radialGradient id="grad2">
+                            <stop class="stop2_1" offset="0%"></stop>
+                            <stop class="stop2_2" offset="50%"></stop>
+                            <stop class="stop2_3" offset="100%"></stop>
+                        </radialGradient>
+                    </defs>
+                    <rect id="bg" x="0" y="0" width="800" height="600" fill="#000000"></rect>
+                    <circle id="circle5" cx="0" cy="0" r="50" fill="#000000"></circle>
+                </svg>
+                <button class="start_button">Start</button>
+                <p class="log"></p>
+            </div>
+            <script type="module" src="script/circle5.js" defer></script>
+        </section>
+    </main>
+    <footer>
+        <small><strong>Art Work By Shingo Hosoda</strong> </small>
+    </footer>
+</body>
+
+</html>
