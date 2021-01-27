@@ -1,0 +1,80 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 763.1 333.52">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 24px;
+        font-family: KozGoPr6N-Regular-90ms-RKSJ-H, Kozuka Gothic Pr6N;
+      }
+
+      .cls-2 {
+        fill: #93278f;
+      }
+
+      .cls-3 {
+        letter-spacing: 0.25em;
+      }
+    </style>
+  </defs>
+  <text class="cls-1" transform="translate(0 21.12)">&lt;<tspan class="cls-2" x="16.18" y="0">div</tspan>
+    <tspan x="48.93" y="0">&gt;</tspan>
+    <tspan x="0" y="42" xml:space="preserve"> &lt;</tspan>
+    <tspan class="cls-2" x="37" y="42">p</tspan>
+    <tspan class="cls-3" x="53.21" y="42">&gt;</tspan>
+    <tspan x="75.38" y="42">ここ</tspan>
+    <tspan class="cls-3" x="123.38" y="42">は1</tspan>
+    <tspan x="172.61" y="42">つ目の段落です。&lt;</tspan>
+    <tspan class="cls-2" x="380.78" y="42">/p</tspan>
+    <tspan x="404.59" y="42">&gt;</tspan>
+    <tspan x="0" y="84" xml:space="preserve"> &lt;</tspan>
+    <tspan class="cls-2" x="38.54" y="84">p</tspan>
+    <tspan class="cls-3" x="53.21" y="84">&gt;</tspan>
+    <tspan x="75.38" y="84">ここ</tspan>
+    <tspan class="cls-3" x="123.38" y="84">は2</tspan>
+    <tspan x="172.61" y="84">つ目の段落です。&lt;</tspan>
+    <tspan class="cls-2" x="380.78" y="84">/p</tspan>
+    <tspan x="404.59" y="84">&gt;</tspan>
+    <tspan x="0" y="126">&lt;</tspan>
+    <tspan class="cls-2" x="16.18" y="126">/div</tspan>
+    <tspan x="58.08" y="126">&gt;</tspan>
+    <tspan x="0" y="168">&lt;</tspan>
+    <tspan class="cls-2" x="16.18" y="168">div</tspan>
+    <tspan x="48.93" y="168">&gt;</tspan>
+    <tspan x="0" y="210" xml:space="preserve"> &lt;</tspan>
+    <tspan class="cls-2" x="38.54" y="210">p</tspan>
+    <tspan class="cls-3" x="53.21" y="210">&gt;</tspan>
+    <tspan x="75.38" y="210">ここ</tspan>
+    <tspan class="cls-3" x="123.38" y="210">は</tspan>
+    <tspan x="153.38" y="210">&lt;</tspan>
+    <tspan class="cls-2" x="169.56" y="210">strong</tspan>
+    <tspan class="cls-3" x="239.44" y="210">&gt;</tspan>
+    <tspan x="261.62" y="210">別にあ</tspan>
+    <tspan class="cls-3" x="333.62" y="210">る</tspan>
+    <tspan x="363.62" y="210">&lt;</tspan>
+    <tspan class="cls-2" x="379.8" y="210">/strong</tspan>
+    <tspan x="458.83" y="210">&gt;</tspan>
+    <tspan class="cls-3" x="475" y="210">3</tspan>
+    <tspan x="494.23" y="210">つ目の段落です。&lt;</tspan>
+    <tspan class="cls-2" x="702.4" y="210">/p</tspan>
+    <tspan x="726.21" y="210">&gt;</tspan>
+    <tspan x="0" y="252" xml:space="preserve"> &lt;</tspan>
+    <tspan class="cls-2" x="38.54" y="252">p</tspan>
+    <tspan class="cls-3" x="53.21" y="252">&gt;</tspan>
+    <tspan x="75.38" y="252">ここ</tspan>
+    <tspan class="cls-3" x="123.38" y="252">は</tspan>
+    <tspan x="153.38" y="252">&lt;</tspan>
+    <tspan class="cls-2" x="169.56" y="252">strong</tspan>
+    <tspan class="cls-3" x="239.44" y="252">&gt;</tspan>
+    <tspan x="261.62" y="252">別にあ</tspan>
+    <tspan class="cls-3" x="333.62" y="252">る</tspan>
+    <tspan x="363.62" y="252">&lt;</tspan>
+    <tspan class="cls-2" x="379.8" y="252">/strong</tspan>
+    <tspan x="458.83" y="252">&gt;</tspan>
+    <tspan class="cls-3" x="475" y="252">4</tspan>
+    <tspan x="494.23" y="252">つ目の段落です。&lt;</tspan>
+    <tspan class="cls-2" x="702.4" y="252">/p</tspan>
+    <tspan x="726.21" y="252">&gt;</tspan>
+    <tspan x="0" y="294">&lt;</tspan>
+    <tspan class="cls-2" x="16.18" y="294">/div</tspan>
+    <tspan x="58.08" y="294">&gt;</tspan>
+  </text>
+</svg>

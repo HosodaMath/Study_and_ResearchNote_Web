@@ -1,0 +1,19 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="100" height="60" viewBox="0 0 100 60">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#名称未設定グラデーション_3);
+      }
+    </style>
+    <linearGradient id="名称未設定グラデーション_3" x1="50" y1="60" x2="50" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d8d8d8" />
+      <stop offset="0.1958" stop-color="#e1e1e1" />
+      <stop offset="0.5202" stop-color="#fbfbfb" />
+      <stop offset="0.5674" stop-color="#fff" />
+      <stop offset="0.8652" stop-color="#fff" />
+      <stop offset="0.9944" stop-color="#fff" />
+    </linearGradient>
+  </defs>
+  <ellipse id="cloud2" class="cls-1" cx="50" cy="30" rx="50" ry="30" />
+</svg>
